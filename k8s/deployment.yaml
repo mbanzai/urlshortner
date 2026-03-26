@@ -25,7 +25,7 @@ spec:
               value: "5000"
             # For kind + port-forward: kubectl port-forward svc/url-shortener 8080:80
             - name: BASE_URL
-              value: "http://localhost:8080"
+              value: "http://localhost:5000"
           readinessProbe:
             httpGet:
               path: /healthz
